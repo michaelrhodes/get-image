@@ -1,6 +1,6 @@
 {
   "name": "get-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple module that creates a preloaded <img> for a given src",
   "main": "server.js",
   "browser": "browser.js",
