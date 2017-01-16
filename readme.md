@@ -1,7 +1,7 @@
 # get-image
 get-image is a simple module that creates a preloaded `<img>` for a given src.
 
-[![Build status](https://travis-ci.org/michaelrhodes/get-image.png?branch=master)](https://travis-ci.org/michaelrhodes/get-image)
+[![Build status](https://travis-ci.org/michaelrhodes/get-image.svg?branch=master)](https://travis-ci.org/michaelrhodes/get-image)
 
 [![Browser support](https://ci.testling.com/michaelrhodes/get-image.png)](https://ci.testling.com/michaelrhodes/get-image)
 
@@ -10,6 +10,9 @@ get-image is a simple module that creates a preloaded `<img>` for a given src.
 ``` sh
 $ npm install get-image
 ```
+**note: canvas is not installed alongside get-image**
+
+get-image requires [automattic/node-canvas](https://github.com/automattic/node-canvas) for its server/node variant, however, to avoid browser-only users from having to endure the native compilation process, it needs to be npm installed separately.
 
 ## Usage
 
