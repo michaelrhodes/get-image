@@ -12,10 +12,12 @@
   },
   "devDependencies": {
     "tape": "~2.1.0",
+    "testling": "~1.7.1",
     "brfs": "~0.0.8"
   },
   "scripts": {
-    "test": "tape ./test/server.js"
+    "test": "tape ./test/server.js",
+    "test:browser": "testling -u"
   },
   "testling": {
     "files": "./test/browser.js",
